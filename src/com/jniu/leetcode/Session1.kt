@@ -10,7 +10,7 @@ package com.jniu.leetcode
  * @CreateTime 2020/7/30
  */
 
-class Solution {
+class Solution1 {
     fun twoSum(nums: IntArray, target: Int): IntArray {
 //        for (i in 0..nums.size) {
 //            val indexOf = nums.indexOf(target - nums[i])
@@ -34,7 +34,7 @@ class Solution {
 fun main() {
     val nums = intArrayOf(2, 7, 11, 15)
     val target = 9
-    val value = Solution().twoSum(nums, target)
+    val value = Solution1().twoSum(nums, target)
     value.forEach {
         print("$it   ")
     }
